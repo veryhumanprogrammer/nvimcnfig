@@ -6,6 +6,7 @@ require("plugins")
 
 --fancy-Stuff
 	require('presence_config')
+  require('tokyonight_config')
 
 --lualine
 	require("lualine_config")
@@ -33,12 +34,10 @@ require("plugins")
 	map('v', '<Leader>y', '"+y', Options)
 	vim.o.scrolloff = 15
 	vim.o.termguicolors = true
-	vim.o.tabstop = 2
-	vim.o.shiftwidth = 2
-	vim.o.expandtab = true
-  vim.g.tokyonight_transparent = true
-	vim.cmd("colorscheme tokyonight")
-	vim.cmd("set nu rnu")
+  vim.o.tabstop = 2
+  vim.o.shiftwidth = 2
+  vim.o.expandtab = true
+  vim.cmd("set nu rnu")
 
 --Github
 	require("vgit_config")

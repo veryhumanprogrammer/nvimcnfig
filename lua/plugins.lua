@@ -6,6 +6,7 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
 	Plug 'folke/tokyonight.nvim'
 	Plug 'andweeb/presence.nvim'
 	Plug 'onsails/lspkind-nvim'
+  Plug 'mhinz/vim-startify'
 	--Nerd-Stuff
 	Plug 'preservim/nerdcommenter'
 	--Bufferline

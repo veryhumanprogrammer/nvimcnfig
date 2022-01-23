@@ -3,10 +3,10 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
 	--Fancy-Stuff
 	Plug 'ryanoasis/vim-devicons'
 	Plug 'kyazdani42/nvim-web-devicons'
-	Plug 'folke/tokyonight.nvim'
 	Plug 'andweeb/presence.nvim'
 	Plug 'onsails/lspkind-nvim'
-  Plug 'mhinz/vim-startify'
+	Plug 'mhinz/vim-startify'
+	Plug 'Mofiqul/dracula.nvim'
 	--Nerd-Stuff
 	Plug 'preservim/nerdcommenter'
 	--Bufferline
@@ -25,11 +25,11 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
 	Plug 'williamboman/nvim-lsp-installer'
 	--LSP-CMP
 	Plug 'hrsh7th/cmp-nvim-lsp'
-  Plug 'hrsh7th/cmp-buffer'
-  Plug 'hrsh7th/nvim-cmp'
+	Plug 'hrsh7th/cmp-buffer'
+	Plug 'hrsh7th/nvim-cmp'
 	Plug 'hrsh7th/cmp-vsnip'
 	Plug 'hrsh7th/vim-vsnip'
-  Plug 'tzachar/cmp-tabnine'
+	Plug 'tzachar/cmp-tabnine'
 	--Filetree
 	Plug 'kyazdani42/nvim-tree.lua'
 	--Telescope

@@ -6,7 +6,7 @@ require("plugins")
 
 --fancy-Stuff
 	require('presence_config')
-  require('tokyonight_config')
+  require('dracula_config')
 
 --lualine
 	require("lualine_config")
